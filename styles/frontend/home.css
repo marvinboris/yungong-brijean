@@ -1,0 +1,3 @@
+.section {
+    @apply min-h-screen flex items-center pt-[153px] -mt-[133px]; 
+}

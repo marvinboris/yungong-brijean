@@ -1,0 +1,60 @@
+.congratulations {
+    /*   text-shadow: 0 0 5px #f562ff, 0 0 15px #f562ff, 0 0 25px #f562ff,
+      0 0 20px #f562ff, 0 0 30px #890092, 0 0 80px #890092, 0 0 80px #890092;
+    color: #fccaff; */
+    text-shadow: 0 0 5px #70a334, 0 0 15px #70a334, 0 0 20px #70a334, 0 0 40px #70a334, 0 0 60px #00ff00, 0 0 10px #84cc16, 0 0 98px #00ff00;
+    color: #d9f99d;
+    text-align: center;
+    animation: blink 12s infinite;
+    -webkit-animation: blink 12s infinite;
+}
+
+@-webkit-keyframes blink {
+
+    20%,
+    24%,
+    55% {
+        color: #111;
+        text-shadow: none;
+    }
+
+    0%,
+    19%,
+    21%,
+    23%,
+    25%,
+    54%,
+    56%,
+    100% {
+        /*     color: #fccaff;
+      text-shadow: 0 0 5px #f562ff, 0 0 15px #f562ff, 0 0 25px #f562ff,
+        0 0 20px #f562ff, 0 0 30px #890092, 0 0 80px #890092, 0 0 80px #890092; */
+        text-shadow: 0 0 5px #70a334, 0 0 15px #70a334, 0 0 20px #70a334, 0 0 40px #70a334, 0 0 60px #00ff00, 0 0 10px #84cc16, 0 0 98px #00ff00;
+        color: #d9f99d;
+    }
+}
+
+@keyframes blink {
+
+    20%,
+    24%,
+    55% {
+        color: #111;
+        text-shadow: none;
+    }
+
+    0%,
+    19%,
+    21%,
+    23%,
+    25%,
+    54%,
+    56%,
+    100% {
+        /*     color: #fccaff;
+      text-shadow: 0 0 5px #f562ff, 0 0 15px #f562ff, 0 0 25px #f562ff,
+        0 0 20px #f562ff, 0 0 30px #890092, 0 0 80px #890092, 0 0 80px #890092; */
+        text-shadow: 0 0 5px #70a334, 0 0 15px #70a334, 0 0 20px #70a334, 0 0 40px #70a334, 0 0 60px #00ff00, 0 0 10px #84cc16, 0 0 98px #00ff00;
+        color: #d9f99d;
+    }
+}
